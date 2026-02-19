@@ -85,6 +85,7 @@ a {
 .facts__container {
     display: flex;
     gap: 40px;
+    margin-bottom: 100px;
 }
 
 .aboutfacts p {
@@ -100,29 +101,6 @@ a {
 .facts {
     margin-bottom: 50px;
 }
-
-.award__container {
-    display: flex;
-    gap: 100px;
-    align-items: center;
-}
-
-.award img {
-    width: 500px;
-}
-
-.aboutaward {
-    text-align: right;
-}
-
-.aboutaward p {
-    display: block;
-    width: 680px;
-}
-
-/* .acts {
-  background-color: #000000;  
-} */
 
 .acts h2 {
     text-align: center;
@@ -177,6 +155,18 @@ a {
     color: #ffd79c;
 }
 
+.acts__container {
+    margin-bottom: 100px;
+}
+
+.signs__container {
+    margin-bottom: 100px;
+}
+
+.signs h2 {
+    text-align: center;
+}
+
 .signs h3 {
     text-align: center;
 }
@@ -201,4 +191,12 @@ a {
     grid-template-rows: auto;
     margin: 0;
     padding: 0;
+}
+
+.trailer__container {
+    margin-left: 350px;
+}
+
+.trailer h2 {
+    margin-left: 400px;
 }
